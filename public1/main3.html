@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main2.css" />
+    <title>Media Query</title>
+    <style>
+      /* Global Styles */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+      
+      /* Navigation Bar Styles */
+      .navbar {
+        background-color: #333;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+      }
+      
+      .navbar .logo {
+        display: inline-block;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 60px;
+        margin: 0;
+      }
+      
+      .navbar img {
+        vertical-align: middle;
+        margin-right: 10px;
+      }
+      
+      .navbar .menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .navbar .menu li {
+        display: inline-block;
+        margin-left: 20px;
+      }
+      
+      .navbar .menu li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        align-items: center;
+      }
+      .navbar .menu a:hover{
+        background: #f00;
+      }
+      .fi{
+        font-size: 30px;
+        font-family: arial;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <h1 class="logo">
+        <span>work</span>out
+      </h1>
+      <ul class="menu">
+        <li><a href="#week1">DAY(1-5)</a></li>
+        <li><a href="#week2">DAY(5-10)</a></li>
+        <li><a href="#week3">DAY(10-15)</a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </div>
+    <h1>Welcome to 2 week workout session</h1><div class="progress-bar-container">
+      <div class="progress-bar" id="progress"></div>
+    </div>
+    <section id="week1">
+      <h1 class="heading"> <span>DAY (1-5)</span> </h1>
+        <p>HERE are some tasks which you need to follow</p>
+        <div>
+        <h2><b>YOGA</b></h2>
+        <ul>
+            <li>standing pose</li>
+            <li>Tadasana (Mountain pose)</li>
+            <li>Warrior (veerabadhrasana)</li>
+        </ul>
+        </div>
+        <h1>References</h1>
+        <div class="boxes">
+          <div class="images">
+            <div class="image">
+              <img src="images/standing.gif" />
+              <div class="image-title">standing pose</div>
+            </div>
+            <div class="image">
+              <img src="images/tada.gif" />
+              <div class="image-title">Tadasana</div>
+            </div>
+            <div class="image">
+              <img src="images/veera.gif" />
+              <div class="image-title">veerabadhrasana</div>
+            </div>
+          </div>
+        </div>
+        <ul>
+            <li>Extended side angle (utthita parvakonasana)</li>
+            <li>Triangle pose (utthita trikonasana)</li>
+            <li>standing forward bend(uttanasana)</li>
+        </ul>
+        <h1>References</h1>
+        <div class="boxes">
+          <div class="images">
+            <div class="image">
+                <img src="images/uhithana.gif" />
+                <div class="image-title">Utthita parvakonasana</div>
+              </div>
+            <div class="image">
+              <img src="images/tri.gif" />
+              <div class="image-title">Uhittta trikonasana</div>
+            </div>
+            <div class="image">
+                <img src="images/uttanasana.gif" />
+                <div class="image-title">uttanasana</div>
+              </div>
+          </div>
+        </div>
+        <h1>References</h1>
+        <div class="container">
+          <h1>Task Tracker</h1>
+          <input type="file" id="fileInputWeek1">
+          <div class="task-list">
+            <label><input type="checkbox" id="task1">Task 1</label>
+            <!-- Add more tasks as needed -->
+          </div>
+          <div class="video-container" id="videoContainerWeek1"></div>
+        </div>
+        </section>
+          <section id="week2">
+            <h1 class="heading"> <span>DAY (5-10)</span> </h1>
+            <p>HERE are some tasks which you need to follow</p>
+            <div>
+            <h2><b>YOGA</b></h2>
+            <ul>
+                <li>Reverse warrior (viparitha virabadhrasana)</li>
+                <li>Garland pose (Malasana)</li>
+                <li>Half forward bend (Ardha uttanasana)</li>
+            </ul>
+            </div>
+            <h1>References</h1>
+            <div class="boxes">
+              <div class="images">
+                <div class="image">
+                    <img src="images/virapitra.gif" />
+                    <div class="image-title">viparitha virabadhrasana</div>
+                  </div>
+                  <div class="image">
+                    <img src="images/malasana.gif" />
+                    <div class="image-title">Malasana</div>
+                  </div>
+                <div class="image">
+                  <img src="images/ardha.jpg" />
+                  <div class="image-title">Ardha uttanasana</div>
+                </div>
+              </div>
+            </div>
+            <ul>
+                <li>Pyramid pose (Parsvottanasana)</li>
+                <li>Raised hand pose (Urdhva hastasana)</li>
+                <li>Low lunge</li>
+            </ul>
+            <h1>References</h1>
+            <div class="boxes">
+              <div class="images">
+                <div class="image">
+                  <img src="images/parva.jpeg" />
+                  <div class="image-title">Parsvottanasana</div>
+                </div>
+                <div class="image">
+                  <img src="images/urdhva.jpg" />
+                  <div class="image-title">Urdhva hastasana</div>
+                </div>
+                <div class="image">
+                  <img src="images/lunges-exercise.gif" />
+                  <div class="image-title">Low lunge</div>
+                </div>
+              </div>
+            </div>
+
+            <h1>References</h1>
+            <div class="container">
+              <h1>Task Tracker</h1>
+              <input type="file" id="fileInputWeek2">
+              <div class="task-list">
+                <label><input type="checkbox" id="task1">Task 2</label>
+                <!-- Add more tasks as needed -->
+              </div>
+              <div class="video-container" id="videoContainerWeek2"></div>
+            </div>
+          </section>
+  </body>
+  <script>
+    let totalCompletedTasks = 0;
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+      const progressBar = document.getElementById('progress');
+      const fileInputWeek1 = document.getElementById('fileInputWeek1'); // First week
+      const fileInputWeek2 = document.getElementById('fileInputWeek2'); // Second week
+      const fileInputWeek3 = document.getElementById('fileInputWeek3'); // Third week
+      const videoContainerWeek1 = document.getElementById('videoContainerWeek1');
+  const videoContainerWeek2 = document.getElementById('videoContainerWeek2');
+  const videoContainerWeek3 = document.getElementById('videoContainerWeek3');
+
+    
+      checkboxes.forEach((checkbox) => {
+        checkbox.addEventListener('change', updateProgress);
+      });
+      fileInputWeek1.addEventListener('change', () => handleFileUpload(fileInputWeek1, videoContainerWeek1));
+      fileInputWeek2.addEventListener('change', () => handleFileUpload(fileInputWeek2, videoContainerWeek2));
+      fileInputWeek3.addEventListener('change', () => handleFileUpload(fileInputWeek3, videoContainerWeek3));
+    
+    
+      function updateProgress() {
+        const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+        const totalTasks =  3; // Three weeks of tasks
+        const completedCheckboxes = document.querySelectorAll('input[type="checkbox"]:checked').length;
+        totalCompletedTasks = completedCheckboxes; // Update total completed tasks based on checked checkboxes
+        const progressPercentage = (totalCompletedTasks / totalTasks) * 100;
+        progressBar.style.width = `${progressPercentage}%`;
+      }
+    
+      function handleFileUpload(fileInput, videoContainer) {
+        const file = fileInput.files[0];
+        if (file) {
+          totalCompletedTasks += 1; // Increment total completed tasks
+          updateProgress();
+      
+          if (file.type.startsWith('video/')) {
+            const videoURL = URL.createObjectURL(file);
+            const videoElement = document.createElement('video');
+            videoElement.setAttribute('src', videoURL);
+            videoElement.setAttribute('controls', 'controls');
+            videoElement.setAttribute('width', '100%');
+            videoElement.setAttribute('height', 'auto');
+            videoContainer.innerHTML = ''; // Clear previous content, if any.
+            videoContainer.appendChild(videoElement);
+            videoContainer.style.display = 'block'; // Display the video container
+          } else {
+            videoContainer.innerHTML = ''; // Clear video container if the uploaded file is not a video.
+            videoContainer.style.display = 'none'; // Hide the video container
+          }
+        }
+      }
+    });
+      
+  </script>
+</html>
